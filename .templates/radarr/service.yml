@@ -2,9 +2,9 @@
     image: linuxserver/radarr
     container_name: radarr
     environment:
-      - PUID=0
-      - PGID=0
-      - TZ=UTC
+      - PUID=1000
+      - PGID=1000
+      - TZ=Asia/Calcutta
       - UMASK=022 #optional
     volumes:
       - ./volumes/radarr/config:/config

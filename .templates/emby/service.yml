@@ -4,7 +4,7 @@
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=UTC
+      - TZ=Asia/Calcutta
       - UMASK_SET=022 #optional
     volumes:
       - ./volumes/emby/config:/config
